@@ -7,7 +7,7 @@ public class NotOrtalaması {
         Scanner input = new Scanner(System.in);
         int mat,fizik,kimya,turkce,tarih,muzik;
 
-        System.out.print("Matematik notunu giriniz :  ");
+        System.out.print("Matematik Notunu Giriniz : ");
         mat = input.nextInt();
 
         System.out.print("Fizik notunu giriniz : ");
