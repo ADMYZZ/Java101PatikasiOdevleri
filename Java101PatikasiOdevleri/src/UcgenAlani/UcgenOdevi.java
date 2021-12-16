@@ -1,4 +1,4 @@
-package UcgenAlaniVeHipotenus;
+package UcgenAlani;
 import java.util.Scanner;
 
 public class UcgenOdevi {
