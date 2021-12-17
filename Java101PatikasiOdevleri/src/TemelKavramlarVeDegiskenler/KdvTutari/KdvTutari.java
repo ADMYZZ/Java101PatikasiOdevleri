@@ -1,4 +1,4 @@
-package KdvTutari;
+package TemelKavramlarVeDegiskenler.KdvTutari;
 import java.util.Scanner;
 
 public class KdvTutari {

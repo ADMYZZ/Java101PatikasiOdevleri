@@ -1,4 +1,4 @@
-package UcgenAlani;
+package TemelKavramlarVeDegiskenler.UcgenAlani;
 import java.util.Scanner;
 
 public class UcgenOdevi {

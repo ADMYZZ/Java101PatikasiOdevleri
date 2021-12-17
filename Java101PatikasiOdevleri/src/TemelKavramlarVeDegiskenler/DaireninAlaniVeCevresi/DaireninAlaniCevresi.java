@@ -1,4 +1,4 @@
-package DaireninAlaniVeCevresi;
+package TemelKavramlarVeDegiskenler.DaireninAlaniVeCevresi;
 import java.util.Scanner;
 
 public class DaireninAlaniCevresi {
