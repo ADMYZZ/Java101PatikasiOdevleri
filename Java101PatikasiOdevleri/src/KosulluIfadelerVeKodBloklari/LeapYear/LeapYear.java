@@ -12,9 +12,7 @@ public class LeapYear {
         year = input.nextInt();
 
         if (0 < year) {
-            if (year < 1000){
-                ans = (year%4 == 0) ? year + " artık yıldır. " : year + " artık yıl değildir. ";
-            } else if (year % 400 == 0) {
+            if (year % 400 == 0) {
                 ans = year + " artık yıldır. ";
             } else if (!(year % 100 == 0) && (year % 4 == 0)) {
                 ans = year + " artık yıldır. ";
