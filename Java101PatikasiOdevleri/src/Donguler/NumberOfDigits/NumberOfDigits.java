@@ -17,7 +17,9 @@ public class NumberOfDigits {
             numberOfDigit++;
         }
 
+
         System.out.println(numberOfDigit + " basamaklı sayı girdiniz." +
                 "Girdiğiniz sayının basamak değerleri toplamı : " + total);
+
     }
 }
