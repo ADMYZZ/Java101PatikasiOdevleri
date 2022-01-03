@@ -14,7 +14,7 @@ public class MaxMinNumber {
             if (input > 0){
                 break;
             }else {
-                System.out.print("Lütfen pozitif bir sayı giriniz. ");
+                System.out.print("Lütfen pozitif sıfırdan büyük bir sayı giriniz. ");
             }
         }
 
