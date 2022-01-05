@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class PolindromeNumber {
 
-    static String answer(int number, int reverseNumber){
+    static String answer(long number, long reverseNumber){
         String ans;
         if (reverseNumber == number){
             ans = number + " => Sayı polindrom sayıdır.";
@@ -13,8 +13,8 @@ public class PolindromeNumber {
         return ans;
     }
 
-    static String polindrome(int number){
-        int reverseNumber = 0, counter, lastDigit;
+    static String polindrome(long number){
+        long reverseNumber = 0, counter, lastDigit;
         counter = number;
         while(counter != 0){
             lastDigit = counter % 10;
@@ -26,10 +26,10 @@ public class PolindromeNumber {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int number;
+        long number;
 
         System.out.print("Lütfen bir sayı giriniz : ");
-        number = input.nextInt();
+        number = input.nextLong();
 
         System.out.println(polindrome(number));
     }
