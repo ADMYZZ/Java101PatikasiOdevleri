@@ -18,6 +18,7 @@ public class RecursiveMethod {
         System.out.println("Fİnal => " + f(4));
     }
 }
+
     /*
         f(4) için çıktısı aşağıdaki gibidir.
         n => 4
