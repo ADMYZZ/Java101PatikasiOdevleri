@@ -13,7 +13,7 @@ public class PolindromeNumber {
         return ans;
     }
 
-    static String polindrome(long number){
+    static long polindrome(long number){
         long reverseNumber = 0, counter, lastDigit;
         counter = number;
         while(counter != 0){
@@ -21,7 +21,7 @@ public class PolindromeNumber {
             reverseNumber = (reverseNumber * 10) + lastDigit;
             counter /= 10;
         }
-        return answer(number,reverseNumber);
+        return reverseNumber;
     }
 
     public static void main(String[] args) {
@@ -31,6 +31,6 @@ public class PolindromeNumber {
         System.out.print("Lütfen bir sayı giriniz : ");
         number = input.nextLong();
 
-        System.out.println(polindrome(number));
+        System.out.println(answer(number, polindrome(number)));
     }
 }
