@@ -10,8 +10,7 @@ public class FibonacchiNumbers {
         return fibonacchi(level - 1) + fibonacchi(level - 2);
     }
 
-
-    public static void main(String[] args) {
+    static void fibonacchiAnswer(){
         Scanner sc = new Scanner(System.in);
         int level;
 
@@ -30,5 +29,10 @@ public class FibonacchiNumbers {
                 System.out.println("Lütfen pozitif bir sayı giriniz.");
             }
         } while (true);
+    }
+
+
+    public static void main(String[] args) {
+        fibonacchiAnswer();
     }
 }
