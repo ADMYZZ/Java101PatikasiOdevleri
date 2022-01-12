@@ -22,6 +22,5 @@ public class asd {
             System.out.println(stringEven +" "+ stringOdd);
             T--;
         }
-        sc.close();
     }
 }
