@@ -36,8 +36,13 @@ public class MineSweeper {
             if ((i<1 || field.length<i) || (j<1 || field.length<j)){
                 System.out.println("Lütfen geçerli satır-sütun sayısı giriniz.");
                 continue;
+            }else if (!control[i-1][j-1].equals("-")){
+                System.out.println("Önceden girilmiş satır-sütun. Lütfen farklı değer giriniz.");
+                continue;
             }
+
             control[i-1][j-1] = field[i-1][j-1];
+
             if (control[i-1][j-1].equals("*")){
                 System.out.println("===================");
                 print(control);
